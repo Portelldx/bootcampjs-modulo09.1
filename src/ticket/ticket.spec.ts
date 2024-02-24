@@ -1,5 +1,5 @@
 import { calculaTicket } from './ticket';
-import { LineaTicket, Producto, TipoIva } from './model';
+import { LineaTicket, TipoIva } from './model';
 
 describe('calculaTicket', () => {
   const lineasTicket: LineaTicket[] = [

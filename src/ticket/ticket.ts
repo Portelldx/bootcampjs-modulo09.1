@@ -40,8 +40,3 @@ export const calculaTicket = (lineasTicket: LineaTicket[]): TicketFinal => {
 
 const ticketFinal = calculaTicket(productos);
 console.log('Ticket Final:', ticketFinal);
-
-
-
-
-
